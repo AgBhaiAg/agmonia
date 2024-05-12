@@ -1,5 +1,5 @@
-let min = window.prompt("enter the minimum amount");
-let max = window.prompt("enter the maximum amount");
+let min = 1;
+let max = 100;
 let ans = Math.floor(Math.random() * (max - min + 1)) + min;
 console.log(ans);
 
